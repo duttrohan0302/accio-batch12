@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Forms</title>
+
 </head>
 <body>
     <h1>HTML Forms</h1>
@@ -36,26 +37,30 @@
 
         <input type="submit" value="Submit Btn">
     </form>
-
+    <form >
+        <input type="text" placeholder="Address">
+        <input type="text" placeholder="city" autofocus>
+        <!-- Auto focus Doesn't work here -->
+    </form>
     <form>
         <h2>Radio Buttons => Choose 1st and 2nd Fav Lanugage</h2>
-        <input type="radio" id="html" name="fav_language" value="htmlLang">
+        <input type="radio" id="html" class="radio-btn" name="fav_language" value="htmlLang">
         <label for="html">HTML</label>
         <br>
-        <input type="radio" id="css" name="fav_language" value="cssLang">
+        <input type="radio" id="css" class="radio-btn" name="fav_language" value="cssLang">
         <label for="css">CSS</label>
         <br>
-        <input type="radio" id="javascript" name="fav_language">
+        <input type="radio" id="javascript" class="radio-btn" name="fav_language">
         <label for="javascript">JavaScript</label>
         <br>
         <br>
-        <input type="radio" id="c" name="fav_language_2">
+        <input type="radio" id="c" class="radio-btn" name="fav_language_2">
         <label for="c">C</label>
         <br>
-        <input type="radio" id="cpp" name="fav_language_2">
+        <input type="radio" id="cpp" class="radio-btn" name="fav_language_2">
         <label for="cpp">C++</label>
         <br>
-        <input type="radio" id="java" name="fav_language_2">
+        <input type="radio" id="java" class="radio-btn" name="fav_language_2">
         <label for="java">Java</label>
         <br>
     </form>
