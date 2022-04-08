@@ -9,6 +9,7 @@ This is the main repository for all of the projects and code done in the classes
 | 05-04-22  | [HTML Tags](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2005-04-22)                             | [Live Demo]()               |
 | 06-04-22  | [HTML Forms, Semantic](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2006-04-22)                             | [Live Demo]()               |
 | 07-04-22  | [CSS Intro, Selectors, Colors, Measurement](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2007-04-22)                             | [Live Demo]()               |
+| 08-04-22  | [Fonts, Text, Box Model](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2008-04-22)                             | [Live Demo]()               |
 
 ## Acknowledgements
 

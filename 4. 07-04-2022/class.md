@@ -1,7 +1,7 @@
 ## Intro to CSS - Cascading Style Sheets
 
 What and Why
-Different options - how to use it
+Different options - how to use it - External, Internal, Inline
 
 ### Selectors
 1. Simple Selectors
@@ -25,7 +25,7 @@ Different options - how to use it
  - ::selection
 
 5. Attribute Selector
- - E.g. a [ target ]
+ - E.g. a [ target ], input[ type= text ] 
 
 ## Adding CSS
 1. Inline
