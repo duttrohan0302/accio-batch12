@@ -89,3 +89,40 @@
 .container-14>div{
     height: 100px;
 }
+
+
+/* Styles for index2.html */
+
+.main{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.main-1 div{
+    flex-basis: 50px;
+}
+.main-1 div:nth-of-type(2){
+    flex-basis: 100px;
+}
+
+.main-2 div{
+    flex-grow: 1;
+}
+
+.main-3 div{
+    flex-grow: 1;
+}
+.main-3 div:nth-of-type(2){
+    flex-grow: 3;
+}
+
+.main-4 div{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+.main-4 div:nth-of-type(3){
+    flex-shrink: 3;
+}
