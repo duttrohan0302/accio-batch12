@@ -11,3 +11,19 @@
 - For inline styling you can add 1000. 
 - !important is the exception, it takes priority over everything else.
 - Equal specificity => Latest rule ones
+
+### Transform
+- Transformations => Skew, Rotate, Translate and Scale => all of this can be done in 2d or 3d
+
+### Animations
+- Used along with keyframes
+- Define an animation name, then in the keyframe show how it works(0% to 100% in terms of time)
+
+### Box-Shadow
+- box-shadow: 5px 10px 8px 2px grey inset, 10px 15px 10px 5px red;
+ 1. First value for horizontal offset
+ 2. Second value is for vertical offset
+ 3. Blur
+ 4. Spread Radius
+- We can give the color and inset(inside shadow)
+- We can also give multiple comma separated box shadows
