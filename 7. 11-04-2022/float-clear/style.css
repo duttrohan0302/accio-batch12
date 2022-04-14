@@ -85,6 +85,7 @@ div>div{
     --blackcolor:black;
     --fontsize:50px;
 }
+
 p{
     /* --redcolor:red; */
     --greencolor:green;
@@ -93,7 +94,6 @@ p{
     /* color: var(--yellowcolor); */
     /* font-size: var(--font-size); */
 }
-
 @media screen and (max-width:800px) {
     :root{
         --redcolor:#123abc;
