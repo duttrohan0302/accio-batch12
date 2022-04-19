@@ -16,6 +16,7 @@ This is the main repository for all of the projects and code done in the classes
 | 13-04-22  | [Transform, Animations, CSS Styling](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2013-04-22)                             | [Live Demo]()               |
 | 14-04-22  | [Portfolio, Revision, Quiz](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2014-04-22)                             | [Live Demo]()               |
 | 18-04-22  | [Bootstrap Intro - Grid, Breakpoints, Flexbox](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2018-04-22)                             | [Live Demo]()               |
+| 19-04-22  | [Spacing, Visibility, Typography, Images](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2019-04-22)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
