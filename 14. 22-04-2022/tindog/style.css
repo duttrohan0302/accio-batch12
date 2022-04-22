@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 .nav-link{
     font-size: 1.2rem;
     font-family: "Montserrat";
-    font-weight: 100;
+    font-weight: 200;
 }
 
 /* Buttons */
@@ -77,10 +77,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .title-image{
-    width: 300px;
+    width: 30%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30px;
+    right: 25%;
 }
 
 /* Features Section */
@@ -146,4 +146,12 @@ h1,h2,h3,h4,h5,h6{
         position: static;
         transform: rotate(0);
     }
+}
+
+.white-section{
+    margin-bottom: 40px;
+}
+
+#testimonials{
+    margin-bottom: 0;
 }
