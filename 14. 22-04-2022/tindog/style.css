@@ -3,7 +3,9 @@ body{
     font-family: "Montserrat";
 }
 
-
+.navbar-nav{
+    text-align: right;
+}
 
 p{
     color: #8f8f8f;
