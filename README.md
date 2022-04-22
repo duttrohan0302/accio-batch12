@@ -18,7 +18,7 @@ This is the main repository for all of the projects and code done in the classes
 | 18-04-22  | [Bootstrap Intro - Grid, Breakpoints, Flexbox](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2018-04-22)                             | [Live Demo]()               |
 | 19-04-22  | [Spacing, Visibility, Typography, Images](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2019-04-22)                             | [Live Demo]()               |
 | 21-04-22  | [Bootstrap Components](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2021-04-22)                             | [Live Demo]()               |
-| 22-04-22  | [Tindog](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2022-04-22)                             | [Live Demo]()               |
+| 22-04-22  | [Tindog & UI](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2022-04-22)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
