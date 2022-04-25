@@ -8,7 +8,8 @@ multi line comments
 */
 document.getElementById("root").innerHTML = "<h1>Hey there</h1>"
 document.write("whats up?")
-document.getElementById("root2").innerHTML = "<h1>Hey there 2.0</h1>"
+document.getElementById("root2").innerHTML =
+ "<h1>Hey there 2.0</h1>"
 document.write("5+3 is 8")
 
 
@@ -30,3 +31,31 @@ let b=6;
 let c;
 c=a+b;
 console.log(c)
+
+{
+// code block
+console.log("hey there")
+    let var2 = "rohan dutt"
+    console.log(var2)
+
+    // let keyword is block scoped
+}
+
+function myFunction(){
+
+}
+
+// console.log(var2)
+console.log("2")
+
+
+// Variables
+let varx = "rohan";
+let vary = 2.5;
+
+var abc ;
+var abc2 = 3;
+abc2=6;
+const abc3 ="rohan";
+
+// abc3 = "dutt"; //cannot define a const variable

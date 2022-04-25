@@ -31,3 +31,12 @@
 - window.document or document
 - document.getElementById("idname").innerHTML="yourcontent"
 - Single line comments and multiline comments
+- Variables and statements in JS
+- Whitespaces
+
+- In a js statement, we can have variables and literals
+- literals are fixed values - numbers(10.5,1001), and strings
+
+- let, var and const => let and var can be redefined, const cannot be.
+- Variable names(also called identifiers)
+  - They can start with A-Z or a-z, $, or _ , after this it can be any letters, digits, underscores or dollar signs
