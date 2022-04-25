@@ -72,4 +72,6 @@ console.log(sayHello); // undefined
 sayHello = "hey there"
 </pre>
 
+- For let, hoisting takes place as well, but in this case, let keyword is not initialized, therefore we get a Reference Error
+
 

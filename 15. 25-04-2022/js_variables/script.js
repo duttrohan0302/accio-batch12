@@ -77,3 +77,38 @@ if(mul>3){
 }
 console.log(greeting)
 // console.log(hello)
+
+{
+   let satya="satya - "
+
+}
+// console.log(satya)
+
+console.log(ajay)
+
+let ajay="hey"
+
+
+// talking abt same scope
+var akshay = 100;
+var akshay = 200; //allowed
+akshay = 300;
+{
+    var totallyNewValue = 200;
+}
+console.log(totallyNewValue) //200
+
+//talking abt scope
+let aman = 100;
+aman=200;
+// let aman = 200; //not allowed => let cannot be redeclared, only update
+
+{
+    // this aman is different than line 99 aman
+    let aman = 300;
+}
+
+function abcdef(){
+    let aman = 400;
+}
+abcdef()
