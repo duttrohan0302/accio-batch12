@@ -112,3 +112,4 @@ function abcdef(){
     let aman = 400;
 }
 abcdef()
+console.log(aman)
