@@ -29,3 +29,5 @@
 
 - window - the browser object model - it allows the JS to talk to the browser
 - window.document or document
+- document.getElementById("idname").innerHTML="yourcontent"
+- Single line comments and multiline comments
