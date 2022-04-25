@@ -59,3 +59,18 @@ abc2=6;
 const abc3 ="rohan";
 
 // abc3 = "dutt"; //cannot define a const variable
+
+let last, Last;
+last=2;
+Last=3;
+
+// Convention - 
+/*
+Identifiers or variable names
+x, y,z
+let first_name;   //Underscore
+let firstName;    // lower camel case, this is used the most
+let FirstName;    // upper camel case
+
+
+*/
