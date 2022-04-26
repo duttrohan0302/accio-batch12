@@ -96,3 +96,15 @@
  - When an event occurs(when a user clicks a button)
  - When it is invoked from JavaScript code
  - Automatically (self invoked)
+
+## this keyword
+- this keyword refers to an object
+- which object? depends on how "this" is being invoked
+
+- In an object method, "this" refers to the object
+- Alone, "this" refers to the global object
+- In a function, "this" refers to the global object
+- In an event, "this" refers to the element that received the event.
+- Methods like call(), apply(), bind() can refer "this" to any object.
+
+### this is not a variable, you cannot change the value. It's a keyword
