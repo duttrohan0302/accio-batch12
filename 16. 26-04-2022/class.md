@@ -108,3 +108,6 @@
 - Methods like call(), apply(), bind() can refer "this" to any object.
 
 ### this is not a variable, you cannot change the value. It's a keyword
+
+### If else, if else if
+### Switch case

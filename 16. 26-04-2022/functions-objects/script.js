@@ -40,3 +40,41 @@ console.log(person.fullName)
 
 //calling a function
 console.log(person.fullName())
+
+
+if(condition){
+
+}
+
+if(condition){
+
+}else{
+
+}
+
+if(condition1){
+
+}else if(conditon2){
+
+}else if(condition3){
+
+}else{
+
+}
+
+switch(expression){
+    // stricy comparision(===)
+    case x:
+        //code block
+        break;
+    case y:
+        //code block
+        break;
+        // no use of this code block
+    case a:
+    case b:
+        //code block;
+        break;
+    default:
+        //code block
+}
