@@ -62,3 +62,37 @@
 - << left shift
 - &gt;&gt; right shift
 - &gt;&gt;&gt; unsigned right shift
+
+## Data Types
+- Numbers
+- String
+- Boolean
+- Array
+- Objects
+- undefined => A variable without a value
+
+## undefined vs null
+### Definition
+- null is the intentional absence of the value. It is one of the primitive values of JS
+- undefined means the value does not exist in the compiler.
+
+### Type
+- null: Object
+- undefined: undefined
+
+### Equality
+- null == undefined // true
+- null === undefined // false
+- It means null is equal to undefined but not identical
+
+### When we define a variable to be
+- undefined then we are trying to convey that the variable does not exist.
+- null then we are trying to convey that the variable is empty
+
+- null is also referred as false
+
+## Functions
+- Invoking a function
+ - When an event occurs(when a user clicks a button)
+ - When it is invoked from JavaScript code
+ - Automatically (self invoked)
