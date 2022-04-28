@@ -27,3 +27,16 @@
   - replace() method does not change the string it is called on
   - replace() method returns a new string
   - replace() method only replaces the first match
+- toUpperCase()
+- toLowerCase()
+- concat()
+- trim()
+- String Padding
+ - padStart()
+ - padEnd()
+- charAt()
+- IMP split() => converts string to array
+- - - 
+- All string methods return a new string, they don't modify the original string.
+- Strings are immutable: Strings cannot be changed, only replaced
+

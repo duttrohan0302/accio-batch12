@@ -79,8 +79,24 @@
         let repText4 = "Please be here HERE"
         let newText4 = repText2.replace(/here/gi,"in delhi")
 
+        // => g means all occurrence
+        // => i means one occurrence but case insensitive
+        // gi=> all occurrence and case insensitive
         console.log(newText4)
 
+        let text3 = "Whats up".concat("syugsd"," dshgsdh ","Hey")
+        console.log(text3)
+
+        let t2 = "5"
+        let padded = t2.padStart(4,"x")
+        let padded2 = t2.padEnd(4,"x")
+        console.log(padded,padded2)
+
+        let nameStatement = "Hey my name is Rohan"
+        let nameArr = nameStatement.split(" ")
+        let charArr = nameStatement.split("")
+        let wholeArr = nameStatement.split()
+        console.log(wholeArr)
     </script>
 </body>
 </html>
