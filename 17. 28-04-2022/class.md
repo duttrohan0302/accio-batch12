@@ -40,3 +40,12 @@
 - All string methods return a new string, they don't modify the original string.
 - Strings are immutable: Strings cannot be changed, only replaced
 
+--- 
+- Template Literals
+
+## Number Methods
+- toString()
+- toExponential()
+- toFixed() => how many digits after decimal
+- toPrecision(n) => returns a string with a number written with a specified length(n)
+- Number() => converts javascript variables to numbers, returns NaN if number cannot be converted.

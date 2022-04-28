@@ -8,7 +8,9 @@
 </head>
 <body>
     
+    <div id="div1">
 
+    </div>
     <script>
         const answer1 = "First string"
         const answer2 = 'Second string'
@@ -97,6 +99,29 @@
         let charArr = nameStatement.split("")
         let wholeArr = nameStatement.split()
         console.log(wholeArr)
+
+        let tempLiteral = `THis is a template literal`
+        let tempLiteral2 = `THis "is" a 'template' literal`
+        let tempLiteral3 = `THis "is" a 'template' lit
+        dhduik
+        
+        eral`
+        console.log(tempLiteral3)
+        const myFirstName = "Rohan"
+        const mySecondName = "Dutt"
+        console.log("My name is "+myFirstName+" "+mySecondName)
+        console.log(`My name is ${myFirstName} ${mySecondName}`) // Variable Substituition
+
+        let price = 10
+        let VAT = 0.25
+        let total = `Total: ${(price *(1+VAT)).toFixed(1)}`
+        console.log(total)
+
+        const heading = "This is a heading"
+        const content = "This is a content"
+
+        document.getElementById("div1").innerHTML = `<h2>${heading}</h2>
+        <p>${content}</p>`
     </script>
 </body>
 </html>
