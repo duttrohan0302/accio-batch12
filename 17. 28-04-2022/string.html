@@ -64,6 +64,23 @@
         console.log(part)
         part = str.substr(-4) // position counts from the end of the string
 
+        let text2 = "the \"students\" of acciojob \'batch\' 1\\2"
+        console.log(text2.slice(3,15))
+
+        let repText = "Please be here"
+        let newText = repText.replace("here","in delhi")
+        console.log(newText)
+
+        let repText2 = "Please be here here"
+        let newText2 = repText2.replace("here","in delhi")
+
+        let newText3 = repText2.replace(/here/g,"in delhi")
+
+        let repText4 = "Please be here HERE"
+        let newText4 = repText2.replace(/here/gi,"in delhi")
+
+        console.log(newText4)
+
     </script>
 </body>
 </html>
