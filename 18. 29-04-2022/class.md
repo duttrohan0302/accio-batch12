@@ -19,3 +19,12 @@
 - shift
 - unshift
 - concat
+--- 
+IMP Methods
+- Splicing => Splice method is used to add new items to an array, but it can also be used to remove items from an array
+ - 1st arg is the new element should be added/spliced in, or the element to be removed
+ - 2nd arg is 0 if you want to add elements, or the number of elements you want to remove
+ - 3rd onwards, give multiple elements to add
+- Slicing
+ - It slices out a piece of an array into a new array
+ 

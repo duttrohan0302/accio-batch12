@@ -119,6 +119,17 @@
         const arr2 = ["Z","Y"]
 
         const arr12  = arr1.concat(arr2,arr1,arr1)
+
+        const eg = ["Banana","Orange","Apple","Mango"]
+        eg.splice(2,0,"Lemon", "Kiwi")
+        console.log(eg)
+        eg.splice(3,2)
+        console.log(eg)
+
+        const eg2 = ["Banana","Orange","Apple","Mango"]
+        console.log(eg2)
+        const neweg = eg2.slice(1,3) // starts from 1st index
+        console.log(neweg)
     </script>
 </body>
 </html>
