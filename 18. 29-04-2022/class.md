@@ -11,3 +11,11 @@
   - The item value
   - The item index
   - The array itself
+- Avoid creating arrays using new Array()
+- Array.isArray(fruits) //true if fruits is an array
+- fruits instanceof Array // true if fruits is an array
+- push
+- pop
+- shift
+- unshift
+- concat

@@ -60,7 +60,65 @@
             
         }
 
+        const table = [19,38,57,76]
+        let tableText=""
+        table.forEach(tableFunc)
+
+        function tableFunc(value,index){
+            tableText+=`19 x ${index+1} = ${table[index]} <br>`
+        }
+        console.log(tableText)
+        document.getElementById("show").innerHTML = tableText
+
         console.log(txt)
+
+        // while(condition){
+
+        // }
+
+        // do{
+
+        // }while(condition)
+
+        const fruits = ["Banana","Orange","Apple"]
+        fruits.push("Kiwi")
+        console.log(fruits)
+
+        fruits[8] = "Papaya"
+        console.log(fruits)
+        // if you give high indexes, it creates holes in the array
+        // fruits = [dlihd]  // illegal
+
+        // Difference between array and objects
+        //  Arrays are special kind of objects
+        // Objects use named indexes whereas arrays use numbered indexes.
+
+        const points = new Array(1,2,3,4)  // avoid doing this
+        const points2 = []
+
+        const a1 = new Array(40,100,1)
+        console.log(a1)
+        const a2 = new Array(40,100) // create an arr with 2 elements, 40 and 100
+        console.log(a2)
+        const a3 = new Array(40) // create an array with 40 undefined elements
+        console.log(a3)
+
+        console.log(fruits.toString())
+        console.log(fruits.join("-"))
+
+        console.log(fruits.pop())
+        console.log(fruits.pop())
+        console.log(fruits)
+        console.log(fruits.shift())
+        console.log(fruits)
+        console.log(fruits.unshift("new-fruit"))
+        console.log(fruits)
+        delete fruits[2] //leave holes in the arr, use pop or shift instead
+
+        const arr1 = ["A","B"]
+        const arr2 = ["Z","Y"]
+
+        const arr12  = arr1.concat(arr2,arr1,arr1)
     </script>
 </body>
 </html>
