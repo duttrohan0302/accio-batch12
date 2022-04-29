@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="show">
+
+    </p>
+
+    <script>
+        const cars = ["Mahindra","Volvo","BMW"];
+        const cars1 = []
+        cars1[0]="Mahindra"
+        cars1[1]="Volvo"
+        cars1[2]="BMW"
+
+        let car = cars[0]
+
+        document.getElementById("show").innerHTML = cars
+        console.log(typeof(cars)) //obj
+
+        const str = new String("Obj") //obj
+        const weirdArr = ["Mahindra",24,true,{firstName:"Rohan",age:22},["A","B",26]]
+        console.log(weirdArr)
+        console.log(weirdArr.length)
+
+        let text=""
+        for(let i=0;i<cars.length;i++){
+            text+=cars[i]+"<br>"
+        }
+        console.log(text)
+        document.getElementById("show").innerHTML = text
+
+        const person = {
+            fname: "Rohan",
+            lname: "Dutt",
+            age: 22
+        }
+
+        for(let x in person){
+            console.log(x)
+            console.log(person[x])
+        }
+
+        const numbers = [45,4,9,16,25];
+
+        let txt=""
+        numbers.forEach(myFunc)
+
+        function myFunc(value, index, array){
+            if(index>0){
+                const newVal = value+array[index-1]
+                txt+=newVal+","
+            }
+            
+        }
+
+        console.log(txt)
+    </script>
+</body>
+</html>
