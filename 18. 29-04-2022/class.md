@@ -19,6 +19,8 @@
 - shift
 - unshift
 - concat
+- sort
+- reverse
 --- 
 IMP Methods
 - Splicing => Splice method is used to add new items to an array, but it can also be used to remove items from an array
@@ -27,4 +29,8 @@ IMP Methods
  - 3rd onwards, give multiple elements to add
 - Slicing
  - It slices out a piece of an array into a new array
- 
+
+---
+- forEach => iterates over an array and calls a given func for each element => does not return anything
+- map => creates a new array by performing a function on each array element
+- filter => creates a new array with array elements that passes a given test
