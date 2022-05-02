@@ -6,7 +6,7 @@ const myFunction2 = (a,b) => {
     return a*b
 }
 
-const myFunction3 = (a,b) => a*b
+let myFunction3 = (a,b) => a*b
 const myFunction4 = (a,b) => (a*b)
 
 function hello(){

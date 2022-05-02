@@ -1,5 +1,6 @@
 // const d = new Date()
-
+const obj = require("./jsonObject.json")
+console.log(obj.address)
 
 console.log(Math.random())
 
@@ -17,3 +18,5 @@ function getRandomInteger(min,max){
 function getRandomInteger(min,max){
     return Math.floor(Math.random()*(max-min+1)) +min;
 }
+
+
