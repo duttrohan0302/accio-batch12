@@ -23,7 +23,7 @@ This is the main repository for all of the projects and code done in the classes
 | 26-04-22  | [JavaScript Operators](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2026-04-22)                             | [Live Demo]()               |
 | 28-04-22  | [JavaScript Events, String & Number Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2028-04-22)                             | [Live Demo]()               |
 | 29-04-22  | [JavaScript Array Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2029-04-22)                             | [Live Demo]()               |
-| 02-05-22  | [Array Methods - forEach, Reduce](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2029-05-02)                             | [Live Demo]()               |
+| 02-05-22  | [Array Methods - forEach, Reduce, JS Date](https://github.com/duttrohan0302/accio-batch12/tree/master/1.%2029-05-02)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
