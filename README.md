@@ -23,14 +23,13 @@ This is the main repository for all of the projects and code done in the classes
 | 26-04-22  | [JavaScript Operators](https://github.com/duttrohan0302/accio-batch12/tree/master/16.%2026-04-22)                             | [Live Demo]()               |
 | 28-04-22  | [JavaScript Events, String & Number Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/17.%2028-04-22)                             | [Live Demo]()               |
 | 29-04-22  | [JavaScript Array Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/18.%2029-04-22)                             | [Live Demo]()               |
-| 02-05-22  | [Reduce, Date, Random, Arrow Func](https://github.com/duttrohan0302/accio-batch12/tree/master/19.%2029-05-02)                             | [Live Demo]()               |
+| 02-05-22  | [Call Apply, Bind & Misc Functions](https://github.com/duttrohan0302/accio-batch12/tree/master/19.%2029-05-02)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
 The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only. This repo is just a way for students to build and learn web technologies like HTML, CSS, Bootstrap, Javascript, React and Redux.
 
 ### JS remaining topics
-- misc functions
+- set timeout
 - DOM
 - JS async/await and promises
-- apply, bind, call
