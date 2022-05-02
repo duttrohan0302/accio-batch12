@@ -43,9 +43,44 @@
             // splitArr(5,2)
             console.log(odd, even)
         // }
-        splits(arr)
+        // splits(arr)
 
-        
+        const numbers = [45,4,9,16,25]
+
+        let sum = numbers.reduce(myFunction)
+
+        function myFunction(total,value,index,array){
+            // total=total+value;
+            return total+value;
+        }
+        document.write(sum)
+
+        let areAllOver18 = numbers.every(function(value){
+            return value>18
+        })
+        console.log(areAllOver18)
+
+        let someOver18 = numbers.some(function(value){
+            return value>18
+        })
+        console.log(someOver18)
+        // check if all array values pass a test
+
+        const fruits = ["Apple","Orange","Apple","Mango"]
+        let indexOfMango = fruits.indexOf("Mango") // 3
+        let indexOfApple = fruits.indexOf("Apple") // 0
+        let lastIndexOfApple = fruits.lastIndexOf("Apple") // 2
+        let indexOfKiwi = fruits.indexOf("Kiwi") // 
+
+
+        console.log(indexOfMango,indexOfApple,lastIndexOfApple,indexOfKiwi)
+
+        let first = fruits.find(function(value){
+            return value.length>5
+        })
+        console.log(first)
+
+        console.log(fruits.includes("Kiwi"))
     </script>
 </body>
 </html>
