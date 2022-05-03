@@ -17,3 +17,8 @@
 - If promise object is pending, result is undefined
 - If the promise object is fulfilled, the result is a value
 - If a promise is rejected, the result is an error object
+
+--- 
+- async keyword before a function makes the function return a promise
+- await keyword before a function makes the function wait for a promise
+- IMP => await keyword can only be used inside an async function

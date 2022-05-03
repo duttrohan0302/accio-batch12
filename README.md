@@ -31,6 +31,4 @@ This is the main repository for all of the projects and code done in the classes
 The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only. This repo is just a way for students to build and learn web technologies like HTML, CSS, Bootstrap, Javascript, React and Redux.
 
 ### JS remaining topics
-- set timeout
 - DOM
-- JS async/await and promises

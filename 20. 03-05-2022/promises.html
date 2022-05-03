@@ -55,6 +55,13 @@
                 document.getElementById("demo").innerHTML="Rejected with "+err;
             })
 
+        async function myFunc(){
+            return "hello"
+        }
+        //  same as
+        function myFunc2(){
+            return Promise.resolve("Hello")
+        }
 
 
 
