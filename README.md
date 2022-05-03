@@ -24,7 +24,7 @@ This is the main repository for all of the projects and code done in the classes
 | 28-04-22  | [JavaScript Events, String & Number Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/17.%2028-04-2022)                             | [Live Demo]()               |
 | 29-04-22  | [JavaScript Array Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/18.%2029-04-2022)                             | [Live Demo]()               |
 | 02-05-22  | [Call Apply, Bind & Misc Functions](https://github.com/duttrohan0302/accio-batch12/tree/master/19.%2002-05-2022)                             | [Live Demo]()               |
-| 03-05-22  | [SetTimeout, setInterval, JS Promises, Async Await, DOM](https://github.com/duttrohan0302/accio-batch12/tree/master/20.%2003-05-2022)                             | [Live Demo]()               |
+| 03-05-22  | [JS Promises, Async Await, DOM Intro](https://github.com/duttrohan0302/accio-batch12/tree/master/20.%2003-05-2022)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
