@@ -25,10 +25,8 @@ This is the main repository for all of the projects and code done in the classes
 | 29-04-22  | [JavaScript Array Methods](https://github.com/duttrohan0302/accio-batch12/tree/master/18.%2029-04-2022)                             | [Live Demo]()               |
 | 02-05-22  | [Call Apply, Bind & Misc Functions](https://github.com/duttrohan0302/accio-batch12/tree/master/19.%2002-05-2022)                             | [Live Demo]()               |
 | 03-05-22  | [JS Promises, Async Await, DOM Intro](https://github.com/duttrohan0302/accio-batch12/tree/master/20.%2003-05-2022)                             | [Live Demo]()               |
+| 04-05-22  | [Event listeners, JS form, Project](https://github.com/duttrohan0302/accio-batch12/tree/master/21.%2004-05-2022)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
 The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only. This repo is just a way for students to build and learn web technologies like HTML, CSS, Bootstrap, Javascript, React and Redux.
-
-### JS remaining topics
-- DOM
