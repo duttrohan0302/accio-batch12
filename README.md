@@ -27,6 +27,7 @@ This is the main repository for all of the projects and code done in the classes
 | 03-05-22  | [JS Promises, Async Await, DOM Intro](https://github.com/duttrohan0302/accio-batch12/tree/master/20.%2003-05-2022)                             | [Live Demo]()               |
 | 04-05-22  | [Event listeners, Project - Panels, Calculator](https://github.com/duttrohan0302/accio-batch12/tree/master/21.%2004-05-2022)                             | [Live Demo]()               |
 | 05-05-22  | [Project - Sounds, Quiz, Toggler](https://github.com/duttrohan0302/accio-batch12/tree/master/22.%2005-05-2022)                             | [Live Demo]()               |
+| 06-05-22  | [Projects - Color Board](https://github.com/duttrohan0302/accio-batch12/tree/master/23.%2006-05-2022)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
