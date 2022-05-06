@@ -10,7 +10,24 @@ let stopwatchInterval;
 
 
 const timeToString = (time) => {
-    
+    let diffInHrs = time/3600000
+
+    let hh = Math.floor(diffInHrs)
+
+    let diffInMins = (diffInHrs-hh)*60
+    let mm = Math.floor(diffInMins)
+
+    let diffInSec = (diffInMins-mm)*60;
+    let ss = Math.floor(diffInSec)
+
+    let diffInMs = (diffInSec-ss) * 1000
+    let ms = Math.floor(diffInMs)
+
+    hh = hh.toString().padStart(2,"0")
+    mm = mm.toString().padStart(2,"0")
+    ss = ss.toString().padStart(2,"0")
+    ms = ms.toString().padStart(3,"0")
+    stopwatch.innerHTML = `${hh}:${mm}:${ss}:${ms}`
 }
 
 const showButton = (buttonKey) => {
@@ -24,7 +41,7 @@ const showButton = (buttonKey) => {
 }
 const startStopwatch = () => {
 
-    startTime = Date.now()
+    startTime = Date.now()-elapsedTime
 
     stopwatchInterval = setInterval(()=>{
         elapsedTime = Date.now()-startTime
