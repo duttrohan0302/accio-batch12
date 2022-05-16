@@ -3,10 +3,9 @@ const game = document.querySelector(".game")
 const details = document.querySelector(".details")
 const message = document.querySelector(".message")
 
-
+let playGame=true
 let player1 = ""
 let player2 = ""
-
 let activePlayer = 0;
 // 0 for player 1 and 
 // 1 for player 2
@@ -38,7 +37,7 @@ function initializeGame(){
 
         div.addEventListener("click",function(){
 
-            if(!div.innerText){
+            if(!div.innerText && playGame){
                 div.innerText = activePlayer=== 0 ? "x" : "o"
 
                 const winner = checkWinner()
@@ -57,7 +56,29 @@ function initializeGame(){
 }
 
 function checkWinner(){
+    let winnerBool = false;
 
+    for(let i=0;i<winningSequences.length;i++){
+        const winningCombo = winningSequences[i];
+
+        const cell1 = document.getElementById(winningCombo[0]+1)
+        const cell2 = document.getElementById(winningCombo[1]+1)
+        const cell3 = document.getElementById(winningCombo[2]+1)
+
+        const val1 = cell1.innerText
+        const val2 = cell2.innerText
+        const val3 = cell3.innerText
+
+        if(val1===val2 && val2===val3 && val1!=""){
+            winnerBool=true;
+            cell1.style.backgroundColor="purple"
+            cell2.style.backgroundColor="purple"
+            cell3.style.backgroundColor="purple"
+            playGame=false
+            break;
+        }
+    }
+    return winnerBool
 }
 
 const winningSequences = [
