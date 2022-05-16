@@ -9,6 +9,7 @@ let player2 = ""
 let activePlayer = 0;
 // 0 for player 1 and 
 // 1 for player 2
+let chances=0
 function showMessage(msg){
     message.innerHTML = `<h3>${msg}</h3>`
 }
@@ -38,6 +39,7 @@ function initializeGame(){
         div.addEventListener("click",function(){
 
             if(!div.innerText && playGame){
+                chances=chances+1
                 div.innerText = activePlayer=== 0 ? "x" : "o"
 
                 const winner = checkWinner()
@@ -47,6 +49,9 @@ function initializeGame(){
                     showMessage(`${activePlayer===0 ? player1 : player2}, you're up`)
                 }else{
                     showMessage(`${activePlayer===0 ? player1 : player2}, Congratulations you won!`)
+                }
+                if(chances===9){
+                    showMessage(`This is a tie!`)
                 }
             }
         })
