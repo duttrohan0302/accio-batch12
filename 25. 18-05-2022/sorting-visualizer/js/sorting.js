@@ -31,5 +31,56 @@ function deleteOldArray(){
 }
 const newArray = document.querySelector(".newArray")
 newArray.addEventListener("click",function(){
+    enableSortingBtn()
+    enableSizeSlider()
     createNewArray(arraySize.value)
 })
+
+let delay = 270;
+
+let delayElement = document.querySelector("#speed_input")
+delayElement.addEventListener("input",()=>{
+    delay = 320-parseInt(delayElement.value)
+})
+
+function waitforme(milisec){
+    return new Promise(resolve=>{
+        setTimeout(()=>{resolve('')},milisec)
+    })
+}
+
+function swap(el1,el2){
+    let temp = el1.style.height;
+    el1.style.height = el2.style.height;
+    el2.style.height = temp;
+}
+
+function disableSortingBtn(){
+    document.querySelector(".bubbleSort").disabled = true;
+    document.querySelector(".insertionSort").disabled = true;
+    document.querySelector(".mergeSort").disabled = true;
+    document.querySelector(".selectionSort").disabled = true;
+}
+
+function enableSortingBtn(){
+    document.querySelector(".bubbleSort").disabled = false;
+    document.querySelector(".insertionSort").disabled = false;
+    document.querySelector(".mergeSort").disabled = false;
+    document.querySelector(".selectionSort").disabled = false;
+}
+
+function disableSizeSlider(){
+    document.querySelector("#arr_sz").disabled = true;
+}
+
+function enableSizeSlider(){
+    document.querySelector("#arr_sz").disabled = false;
+}
+
+function disableNewArrayBtn(){
+    document.querySelector("#arr_sz").disabled = true;
+}
+
+function enableNewArrayBtn(){
+    document.querySelector("#arr_sz").disabled = false;
+}
