@@ -29,6 +29,7 @@ This is the main repository for all of the projects and code done in the classes
 | 05-05-22  | [Project - Sounds, Quiz, Toggler](https://github.com/duttrohan0302/accio-batch12/tree/master/22.%2005-05-2022)                             | [Live Demo]()               |
 | 06-05-22  | [Projects - Color Board, Running Text, Stopwatch](https://github.com/duttrohan0302/accio-batch12/tree/master/23.%2006-05-2022)                             | [Live Demo]()               |
 | 16-05-22  | [Projects - Random Quotes, Tic Tac Toe](https://github.com/duttrohan0302/accio-batch12/tree/master/24.%2016-05-2022)                             | [Live Demo]()               |
+| 18-05-22  | [Projects - Infinite Scroll](https://github.com/duttrohan0302/accio-batch12/tree/master/25.%2018-05-2022)                             | [Live Demo]()               |
 
 ## Acknowledgements
 
