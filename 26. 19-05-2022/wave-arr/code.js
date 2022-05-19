@@ -54,3 +54,28 @@ console.log(answerArr)
 
 //Time Complexity - O(nlogn)
 // Space Complexity - O(1)
+
+
+// const arrtemp1 = ["10:00AM-12:00PM","9:00AM-11:00PM"]
+/*
+1. Iterate over the array
+2. Split using ("-")
+3. store the earliest starting time
+
+// Equivalent to finding the min & max in an array with some tweaks
+2 iterations - O(n)
+*/
+
+// arrtemp1[0].split("-")
+
+/*
+ax+b=c
+x = (c-b)/a
+12x+1=4
+a = 12, b=1, c=4 => x = 0.25
+
+x=3/12=0.25
+
+12*0+1 = x => a=1, b = 0, c=1
+
+*/
