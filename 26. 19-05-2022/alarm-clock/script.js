@@ -3,6 +3,41 @@ const alarmDay = document.getElementById("day")
 const alarmTime = document.getElementById("time")
 const alarms = document.getElementById("alarms")
 
+class Clock{
+    constructor(){
+        this.alarms = []
+    }
+
+    getAlarms(){
+        return this.alarms;
+    }
+
+    setAlarm(time){
+        const alarmInstance = {
+            id: uniqueID(),
+            time: time,
+            snoozeRemaining: 3
+        }
+
+        this.alarmInstance.push(alarmInstance)
+        refreshAlarmsInUI()
+    }
+
+    deleteAlarm(id){
+
+    }
+
+    snoozeAlarm(id,cancel=false){
+
+    }
+
+    playAlarm(id){
+        console.log(`Alarm with id ${id} is playing`)
+    }
+}
+
+const clock = new Clock();
+
 addAlarmBtn.addEventListener("click",()=>{
     const hh = parseInt(alarmTime.value.split(":")[0])
     const min = parseInt(alarmTime.value.split(":")[1])
@@ -25,7 +60,8 @@ addAlarmBtn.addEventListener("click",()=>{
         dateTimeForAlarm.setDate(dateTimeForAlarm.getDate()+7)
     }
     console.log(dateTimeForAlarm)
-    addAlarmToUI(dateTimeForAlarm)
+    clock.setAlarm(dateTimeForAlarm)
+    // addAlarmToUI(dateTimeForAlarm)
 })
 
 const addAlarmToUI = (time,id) => {
@@ -38,8 +74,7 @@ const addAlarmToUI = (time,id) => {
     const dayName = days[dayIndex]
 
     const alarmEl = document.createElement("div")
-    alarmEl.style.backgroundColor="cyan"
-
+    alarmEl.classList.add("alarmEl")
     alarmEl.innerHTML = `<h3 id=${id}>
         ${dayName} ${timeHH.toString().padStart(2,"0")}:${timeMin.toString().padStart(2,"0")}
     </h3>
