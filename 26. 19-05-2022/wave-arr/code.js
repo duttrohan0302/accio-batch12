@@ -4,11 +4,34 @@ function swap(arr,x,y){
     arr[y]=temp;
 }
 
+// function compare(a,b){
+//     return a-b;
+// }
+
+const arrtemp = [
+    {
+        age:25,
+        name:"Rohan"
+    },
+    {
+        age:36,
+        name:"Satyaki"
+    },
+    {
+        age:100,
+        name:"Surya"
+    }
+]
+arrtemp.sort((a,b)=>a.age-b.age)
+
 function shuffle(arr){
 
     const n = arr.length;
     arr.sort((a,b)=>a-b)
-
+    // .sort() any array & it does lexicographic sorting
+    // If we just do arr.sort()
+    // 25 and 100 ..25>100
+    // custom comparator
 
     // wave for arr[0]<=arr[1]>=arr[2]<=arr[3] & so on
     // for(let i = 1;i<n-1;i+=2){
